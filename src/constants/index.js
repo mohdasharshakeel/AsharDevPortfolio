@@ -20,25 +20,6 @@ export const servicesData = [
     ],
   },
   {
-    title: "DevOps & Cloud Solutions",
-    description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
-    items: [
-      {
-        title: "CI/CD Pipelines",
-        description: "(GitHub Actions, Docker, Kubernetes)",
-      },
-      {
-        title: "Server Management ",
-        description: "(Linux, Nginx, Load Balancing)",
-      },
-      {
-        title: "Performance Tuning",
-        description: "(Caching, Compression, Lighthouse 90+ Scores)",
-      },
-    ],
-  },
-  {
     title: "Security & Optimization",
     description:
       "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
@@ -58,16 +39,16 @@ export const servicesData = [
     ],
   },
   {
-    title: "Web & Mobile Apps",
+    title: "Web App",
     description:
       "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
     items: [
       {
-        title: "Cross-Platform Apps",
+        title: "Next/React",
         description: "(Single codebase for iOS/Android/Web)",
       },
       {
-        title: "PWAs",
+        title: "AI-intregrated",
         description: "(Offline mode, Push Notifications)",
       },
       {
@@ -80,102 +61,84 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
-    name: "Mobile Accessories E-commerce",
+    name: "Mock Interview - AI sensie",
     description:
-      "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
-    href: "",
-    image: "/assets/projects/mobile-accessories-store.jpg",
+      "AI Sensei is an AI-powered career tool for mock interviews, smart resume & cover letter creation, and real-time industry insights — all in one place.",
+    href: "https://sensei-iota-kohl.vercel.app/",
+    image: "/assets/projects/mockinterview.jpg",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Node.js" },
-      { id: 4, name: "MongoDB" },
+      { id: 1, name: "Next.js" },
+      { id: 2, name: "prisma" },
+      { id: 3, name: "redux" },
+      { id: 4, name: "recharts" },
       { id: 5, name: "Tailwind CSS" },
+      { id: 6, name: "google-gemini" },
     ],
   },
   {
     id: 2,
-    name: "Plant Shop E-commerce",
+    name: "Uber Full flashed clone",
     description:
-      "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
+      "Uber Clone is a ride-hailing app with user and captain profiles, real-time ride booking, live location tracking, fare estimation, and ride history — delivering a full Uber-like experience.",
     href: "",
-    image: "/assets/projects/plant-shop.jpg",
+    image: "/assets/projects/uber.jpg",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
       { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Stripe API" },
+      { id: 2, name: "mongoDB" },
+      { id: 3, name: "google-map-api" },
       { id: 4, name: "Tailwind CSS" },
     ],
   },
   {
     id: 3,
-    name: "Apple Tech Marketplace",
+    name: "Netflix",
     description:
-      "An e-commerce platform for Apple products and accessories with deals and category filtering.",
+      "Netflix Clone is a streaming platform with user profiles, movie/series browsing, video playback, watchlist, and category-wise content — offering a full OTT experience.",
     href: "",
-    image: "/assets/projects/apple-tech-store.jpg",
+    image: "/assets/projects/netflix.jpg",
     bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
-      { id: 1, name: "Blazor" },
-      { id: 2, name: "ASP.NET Core" },
-      { id: 3, name: "SQL Server" },
-      { id: 4, name: "Bootstrap" },
+      { id: 1, name: "React.js" },
+      { id: 2, name: "express.js" },
+      { id: 3, name: "MongoDB" },
+      { id: 4, name: "tailwind" },
     ],
   },
   {
     id: 4,
-    name: "Electronics & Gadgets Store",
+    name: "iphone 15",
     description:
-      "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
+      "Apple iPhone 15 Website Clone is a sleek product showcase site featuring smooth animations, device highlights, parallax effects, and responsive design — mimicking Apple’s official feel.",
     href: "",
-    image: "/assets/projects/electronics-store.jpg",
-    bgImage: "/assets/backgrounds/poster.jpg",
+    image: "/assets/projects/apple.jpg",
+    bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
-      { id: 1, name: "Vue.js" },
-      { id: 2, name: "Laravel" },
-      { id: 3, name: "MySQL" },
-      { id: 4, name: "SCSS" },
+      { id: 1, name: "react.js" },
+      { id: 2, name: "gsap" },
+      { id: 3, name: "framer-motion" },
+      { id: 4, name: "three.js" },
     ],
   },
   {
     id: 5,
-    name: "Home Decor Marketplace",
+    name: "Linkedin-clone",
     description:
-      "A curated collection of designer home decor items, including furniture and artisan vases.",
+      "LinkedIn Clone is a professional networking platform with user profiles, posts, connections, job listings, and messaging — replicating key LinkedIn features in one place.",
     href: "",
-    image: "/assets/projects/home-decor-store.jpg",
+    image: "/assets/projects/linkedprojct.jpg",
     bgImage: "/assets/backgrounds/table.jpg",
     frameworks: [
-      { id: 1, name: "Angular" },
-      { id: 2, name: "Firebase" },
-      { id: 3, name: "GraphQL" },
-      { id: 4, name: "Material UI" },
-    ],
-  },
-  {
-    id: 6,
-    name: "Digital Game Store",
-    description:
-      "A gaming platform featuring discounted titles, top sellers, and genre-based browsing.",
-    href: "",
-    image: "/assets/projects/game-store.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
-    frameworks: [
-      { id: 1, name: "Svelte" },
-      { id: 2, name: "Node.js" },
-      { id: 3, name: "MongoDB" },
-      { id: 4, name: "Chakra UI" },
+      { id: 1, name: "react.js" },
+      { id: 2, name: "mongoDB" },
+      { id: 3, name: "express.js" },
+      { id: 4, name: "tailwind" },
     ],
   },
 ];
 export const socials = [
-  { name: "Instagram", href: "https://www.instagram.com/ali.sanatidev/reels/" },
-  {
-    name: "Youtube",
-    href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
-  },
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
-  { name: "GitHub", href: "https://github.com/Ali-Sanati" },
+  { name: "Instagram", href: "https://www.instagram.com/orewa.ashar/?next=%2F" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/mohdasharshakeel/" },
+  { name: "GitHub", href: "https://github.com/mohdasharshakeel" },
 ];
