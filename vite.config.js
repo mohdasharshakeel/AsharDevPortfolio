@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/', // 👈 '/' for root, '/repo-name/' for GitHub Pages
+  base: '/AsharDevPortfolio', // 👈 '/' for root, '/repo-name/' for GitHub Pages
   plugins: [tailwindcss(), react()],
 })
